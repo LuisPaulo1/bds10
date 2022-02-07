@@ -19,8 +19,8 @@ const Form = () => {
   const [selectDepartments, setSelectDepartments] = useState<Department[]>([]);
 
   useEffect(() => {
-    requestBackend({ url: '/departments' }).then((response) => {
-      setSelectDepartments(response.data);
+    requestBackend({ url: '/departments', withCredentials: true }).then((response) => {
+      setSelectDepartments(response.data);      
     });
   }, []);
 
@@ -104,7 +104,7 @@ const Form = () => {
                     <Select
                       {...field}
                       options={selectDepartments}                      
-                      classNamePrefix="product-crud-select"
+                      classNamePrefix="employee-crud-select" 
                       getOptionLabel={(department: Department) => department.name}
                       getOptionValue={(department: Department) => String(department.id)}
                       inputId="department" />

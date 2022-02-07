@@ -41,7 +41,8 @@ const List = () => {
   const getEmployees = useCallback(() => {
     const config: AxiosRequestConfig = {
       method: 'GET',
-      url: '/employees',      
+      url: '/employees',  
+      withCredentials: true,    
       params: {
         page: controlComponentsData.activePage,
         size: 3
