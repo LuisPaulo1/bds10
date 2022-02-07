@@ -11,6 +11,8 @@ BDS é uma API que consiste em um banco de funcionários que podem ser listados 
 ![Web_2](https://github.com/LuisPaulo1/assets/blob/master/BDS10/02.jpeg)
 #
 ![Web_3](https://github.com/LuisPaulo1/assets/blob/master/BDS10/03.jpeg)
+#
+![Web_4](https://github.com/LuisPaulo1/assets/blob/master/BDS10/04.jpeg)
 
 ## Collection do Postman
 Importar o link no Postman: https://www.getpostman.com/collections/940ad90467892e6b1cfb
